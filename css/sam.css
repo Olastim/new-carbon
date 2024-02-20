@@ -1,0 +1,77 @@
+/* Style the navigation menu */
+header {
+    background-color: white;
+    /* border-bottom: 1px solid #eaecee; */
+    box-shadow: 5px 2px 10px gray
+}
+
+nav {
+
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 90%;
+    padding: 10px 0px;
+    margin: 0 auto;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+}
+
+/* Style the navigation menu items */
+.nav-menu li {
+    margin-right: 20px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    display: block;
+}
+
+/* Style the dropdown */
+.dropdown {
+    position: relative;
+}
+
+/* Style the dropdown menu */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    list-style: none;
+    top: 100%;
+    width: 100px;
+    left: 0;
+    /* background-color: green; */
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Style the dropdown menu items */
+.dropdown-menu li a {
+    margin: 3px 0px;
+    width: 100%;
+}
+
+.dropdown-menu a {
+    padding: 10px;
+    width:100%;
+    display: block;
+    background-color: grey;
+    color:#ffff ;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* Style the dropdown menu items on hover */
+.dropdown-menu a:hover {
+    /* background-color: #555; */
+    margin: 3px 0px;
+}
